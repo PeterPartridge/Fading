@@ -9,7 +9,7 @@ $("document").ready(function () {
     //javascript librabry drop down
     $("#javaLibrary").click(function () {
         if (a === 0) {
-            $("#javaLibraryDropDown").removeClass("removeClassOnClick").hide().fadeIn();
+            $("#javaLibraryDropDown").removeClass("hide-element-when-page-Opens").hide().fadeIn("slow");
             a++;
         }
         else if(a===1) {
@@ -17,14 +17,14 @@ $("document").ready(function () {
             a--;
         }
         });
-    
+
 
 //programming languages drop down
     $("#programingLang").click(function () {
-       
+
 
         if (b === 0) {
-            $("#programmingLangDropDown").removeClass("removeClassOnClick").hide().fadeIn();
+            $("#programmingLangDropDown").removeClass("hide-element-when-page-Opens").hide().fadeIn();
             b++;
         }
         else {
@@ -36,7 +36,7 @@ $("document").ready(function () {
     //Frameworks drop down
     $("#framework").click(function () {
         if (c === 0) {
-            $("#frameworkDropDown").removeClass("removeClassOnClick").hide().fadeIn();
+            $("#frameworkDropDown").removeClass("hide-element-when-page-Opens").hide().fadeIn();
             c++;
         }
         else {
@@ -49,7 +49,7 @@ $("document").ready(function () {
 
 
         if (d === 0) {
-            $("#portfolioDropDown").removeClass("removeClassOnClick").hide().fadeIn();
+            $("#portfolioDropDown").removeClass("hide-element-when-page-Opens").hide().fadeIn();
             d++;
         }
         else {
@@ -61,7 +61,7 @@ $("document").ready(function () {
 
 
         if (e === 0) {
-            $("#contactDropDown").removeClass("removeClassOnClick").hide().fadeIn();
+            $("#contactDropDown").removeClass("hide-element-when-page-Opens").hide().fadeIn();
             e++;
         }
         else {
